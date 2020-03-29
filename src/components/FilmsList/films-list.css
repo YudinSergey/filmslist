@@ -1,0 +1,54 @@
+.films-list{
+    padding-bottom: 20px;
+}
+
+.films-list__film{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-left:1%;
+    margin-bottom: 10px;
+    background: #e1f2fe;
+    border-radius: 3px;
+}
+
+.films-list__film-name{
+    color: #000000;
+    font-size: 16px;
+    width: 65%;
+}
+
+.films-list__add-bookmarks{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.films-list__add-bookmarks-star{
+    width: 50%;
+}
+
+.films-list__bookmarks .films-list__add-bookmarks-star polygon{
+    fill:#FFFF00;
+}
+
+.films-list__show-more{
+    height: 30px;
+    width: 120px;
+    background: rgba(51,78,131,0.75);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.films-list__show-more:hover{
+    background-color:#B0C4DE;
+}
